@@ -1,0 +1,5 @@
+# This is example config, adjust to your needs
+
+logfile: "/extdata/logs/engine-controller.log"
+#master_url: "controller:6000"
+#master_url: "host.docker.internal:6000"

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yolov7"
+version = "0.10.0"
+description = ""
+authors = ["Benedict Lindner <benedict.lindner@synthavo.de>"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6.4"
+pydantic-settings = "^2.2.1"
+ruamel-yaml = "0.18.6"
+onnx = "^1.16.0"
+onnx-graphsurgeon = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
